@@ -1,0 +1,10 @@
+{
+  "files": [
+    "results/laplace-dirichlet-2d/laplace-dirichlet-2d.disk-easy.mfs.i7-1355U.json",
+    "results/laplace-dirichlet-2d/laplace-dirichlet-2d.disk-easy.nystrom-dlp.i7-1355U.json",
+    "results/laplace-dirichlet-2d/laplace-dirichlet-2d.star-hard.mfs.i7-1355U.json",
+    "results/laplace-dirichlet-2d/laplace-dirichlet-2d.star-hard.nystrom-dlp.i7-1355U.json",
+    "results/laplace-dirichlet-2d/laplace-dirichlet-2d.star-medium.mfs.i7-1355U.json",
+    "results/laplace-dirichlet-2d/laplace-dirichlet-2d.star-medium.nystrom-dlp.i7-1355U.json"
+  ]
+}
