@@ -4,11 +4,10 @@ Benchmark results for
 [fastandaccurate](https://github.com/concept-collection/fastandaccurate),
 viewed at https://concept-collection.github.io/fastandaccurate/.
 
-This repository is the database: each file under `results/` is one
-work-precision sweep (one problem instance, one solver, one environment)
-in the JSON format defined by the main repository's
-`src/harness/resultSchema.ts`. The site fetches `index.json` and the
-files it lists, statically; there is no server. Provenance travels
+Each file under `results/` is one work-precision sweep (one problem
+instance, one solver, one environment) in the JSON format defined by the
+main repository's `src/harness/resultSchema.ts`. The site fetches
+`index.json` and the files it lists, statically. Provenance travels
 inside each file: instance spec and hash, solver id and version,
 protocol, runtime, numbl version, and machine. The submitter is recorded
 by the pull request itself.
