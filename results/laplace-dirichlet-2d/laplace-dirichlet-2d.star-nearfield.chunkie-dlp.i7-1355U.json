@@ -1,0 +1,238 @@
+{
+  "format": "fastandaccurate-result",
+  "formatVersion": 1,
+  "problem": "laplace-dirichlet-2d",
+  "problemVersion": 1,
+  "instance": "star-nearfield",
+  "spec": {
+    "a": 0.3,
+    "d": 0.08,
+    "instance": "star-nearfield",
+    "k": 5,
+    "problem": "laplace-dirichlet-2d",
+    "problemVersion": 1,
+    "nearBoundary": true
+  },
+  "specHash": "8283a59db276842f8024202c0ee279cf8052854b709e0bfa12b687fe00fd5df0",
+  "solver": {
+    "id": "chunkie-dlp",
+    "version": "3.0.0",
+    "backend": "cpu",
+    "source": "builtin"
+  },
+  "environment": {
+    "kind": "matlab",
+    "runtime": "MATLAB 26.2.0.3320248 (R2026b) Prerelease Update 2",
+    "os": "linux 6.12.101+deb13-amd64",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "machineLabel": "linux laptop (i7-1355U)",
+    "browserReproducible": false
+  },
+  "protocol": {
+    "warmupRuns": 2,
+    "minTimedRuns": 5,
+    "timeBudgetSeconds": 0.5,
+    "maxTimedRuns": 50,
+    "statistic": "min",
+    "timer": "matlab tic/toc"
+  },
+  "createdUtc": "2026-08-18T20:51:14.717Z",
+  "points": [
+    {
+      "n": 2,
+      "solveSeconds": 0.199211,
+      "solveSecondsAll": [
+        0.308886,
+        0.264137,
+        0.199211,
+        0.199837,
+        0.205139
+      ],
+      "coldSeconds": 0.303556,
+      "relMax": 0.09111151969024192,
+      "relL2": 0.05979407506647136
+    },
+    {
+      "n": 3,
+      "solveSeconds": 0.219378,
+      "solveSecondsAll": [
+        0.221062,
+        0.22359,
+        0.219378,
+        0.2202,
+        0.223614
+      ],
+      "coldSeconds": 0.224665,
+      "relMax": 0.05911259867110707,
+      "relL2": 0.03166442331931064
+    },
+    {
+      "n": 4,
+      "solveSeconds": 0.177129,
+      "solveSecondsAll": [
+        0.177129,
+        0.225075,
+        0.181316,
+        0.180647,
+        0.180846
+      ],
+      "coldSeconds": 0.182067,
+      "relMax": 0.02752245218688727,
+      "relL2": 0.00921885125169502
+    },
+    {
+      "n": 6,
+      "solveSeconds": 0.097074,
+      "solveSecondsAll": [
+        0.10005,
+        0.098338,
+        0.098069,
+        0.09811,
+        0.097676,
+        0.097074
+      ],
+      "coldSeconds": 0.103319,
+      "relMax": 0.026567242733507797,
+      "relL2": 0.0080314037441314
+    },
+    {
+      "n": 8,
+      "solveSeconds": 0.063895,
+      "solveSecondsAll": [
+        0.065919,
+        0.067592,
+        0.065495,
+        0.064717,
+        0.063895,
+        0.067861,
+        0.07052,
+        0.065962
+      ],
+      "coldSeconds": 0.069981,
+      "relMax": 0.01011144798904974,
+      "relL2": 0.00214403205782909
+    },
+    {
+      "n": 12,
+      "solveSeconds": 0.045774,
+      "solveSecondsAll": [
+        0.048507,
+        0.047904,
+        0.04727,
+        0.047262,
+        0.057459,
+        0.046599,
+        0.092002,
+        0.059085,
+        0.048495,
+        0.045774
+      ],
+      "coldSeconds": 0.046615,
+      "relMax": 0.0004441994078781332,
+      "relL2": 0.00015994036139170532
+    },
+    {
+      "n": 16,
+      "solveSeconds": 0.041466,
+      "solveSecondsAll": [
+        0.041715,
+        0.042079,
+        0.041466,
+        0.042559,
+        0.049408,
+        0.047519,
+        0.0524,
+        0.054118,
+        0.046648,
+        0.0514,
+        0.048309
+      ],
+      "coldSeconds": 0.044257,
+      "relMax": 0.00023504580037159005,
+      "relL2": 0.000054530663192134227
+    },
+    {
+      "n": 24,
+      "solveSeconds": 0.042073,
+      "solveSecondsAll": [
+        0.055762,
+        0.066605,
+        0.045378,
+        0.046774,
+        0.045224,
+        0.044236,
+        0.043651,
+        0.042776,
+        0.042473,
+        0.042073,
+        0.042584
+      ],
+      "coldSeconds": 0.092398,
+      "relMax": 0.0000023792001705677437,
+      "relL2": 7.340379557362156e-7
+    },
+    {
+      "n": 32,
+      "solveSeconds": 0.047938,
+      "solveSecondsAll": [
+        0.047938,
+        0.052537,
+        0.052189,
+        0.056568,
+        0.066493,
+        0.057434,
+        0.069073,
+        0.065592,
+        0.059727
+      ],
+      "coldSeconds": 0.055091,
+      "relMax": 1.9122396327360974e-7,
+      "relL2": 3.985649006740941e-8
+    },
+    {
+      "n": 48,
+      "solveSeconds": 0.067733,
+      "solveSecondsAll": [
+        0.079535,
+        0.071598,
+        0.068527,
+        0.067733,
+        0.069476,
+        0.087527,
+        0.169839
+      ],
+      "coldSeconds": 0.143892,
+      "relMax": 4.0129503097244137e-10,
+      "relL2": 7.915204795617412e-11
+    },
+    {
+      "n": 64,
+      "solveSeconds": 0.092065,
+      "solveSecondsAll": [
+        0.095544,
+        0.092277,
+        0.09706,
+        0.092065,
+        0.113657,
+        0.120197
+      ],
+      "coldSeconds": 0.111548,
+      "relMax": 1.839423150208301e-11,
+      "relL2": 1.7188812069513192e-11
+    },
+    {
+      "n": 96,
+      "solveSeconds": 0.159418,
+      "solveSecondsAll": [
+        0.159418,
+        0.245154,
+        0.285769,
+        0.179465,
+        0.176561
+      ],
+      "coldSeconds": 0.194993,
+      "relMax": 8.202711556150113e-11,
+      "relL2": 3.595019300698515e-11
+    }
+  ]
+}

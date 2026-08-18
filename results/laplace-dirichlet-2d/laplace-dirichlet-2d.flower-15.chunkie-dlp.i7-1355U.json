@@ -1,0 +1,195 @@
+{
+  "format": "fastandaccurate-result",
+  "formatVersion": 1,
+  "problem": "laplace-dirichlet-2d",
+  "problemVersion": 1,
+  "instance": "flower-15",
+  "spec": {
+    "a": 0.2,
+    "d": 0.25,
+    "instance": "flower-15",
+    "k": 15,
+    "problem": "laplace-dirichlet-2d",
+    "problemVersion": 1
+  },
+  "specHash": "0f66b2d599e60ea851124485b5615a6027f9406a1c56bbb7deef269e96079970",
+  "solver": {
+    "id": "chunkie-dlp",
+    "version": "3.0.0",
+    "backend": "cpu",
+    "source": "builtin"
+  },
+  "environment": {
+    "kind": "matlab",
+    "runtime": "MATLAB 26.2.0.3320248 (R2026b) Prerelease Update 2",
+    "os": "linux 6.12.101+deb13-amd64",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "machineLabel": "linux laptop (i7-1355U)",
+    "browserReproducible": false
+  },
+  "protocol": {
+    "warmupRuns": 2,
+    "minTimedRuns": 5,
+    "timeBudgetSeconds": 0.5,
+    "maxTimedRuns": 50,
+    "statistic": "min",
+    "timer": "matlab tic/toc"
+  },
+  "createdUtc": "2026-08-18T20:50:31.824Z",
+  "points": [
+    {
+      "n": 8,
+      "solveSeconds": 0.365061,
+      "solveSecondsAll": [
+        0.594226,
+        0.480305,
+        0.44232,
+        0.365533,
+        0.365061
+      ],
+      "coldSeconds": 0.416264,
+      "relMax": 0.008624056415735172,
+      "relL2": 0.006917280803662724
+    },
+    {
+      "n": 12,
+      "solveSeconds": 0.208266,
+      "solveSecondsAll": [
+        0.209103,
+        0.209992,
+        0.215462,
+        0.208266,
+        0.216017
+      ],
+      "coldSeconds": 0.209564,
+      "relMax": 0.0010505706788513976,
+      "relL2": 0.0008150366431039039
+    },
+    {
+      "n": 16,
+      "solveSeconds": 0.080837,
+      "solveSecondsAll": [
+        0.080837,
+        0.083845,
+        0.083954,
+        0.082866,
+        0.084569,
+        0.084771
+      ],
+      "coldSeconds": 0.081622,
+      "relMax": 0.0003540521294843824,
+      "relL2": 0.00023532972158134927
+    },
+    {
+      "n": 24,
+      "solveSeconds": 0.053146,
+      "solveSecondsAll": [
+        0.05475,
+        0.054386,
+        0.058239,
+        0.054211,
+        0.054939,
+        0.053697,
+        0.059085,
+        0.053915,
+        0.053146,
+        0.055026
+      ],
+      "coldSeconds": 0.056554,
+      "relMax": 0.00008528206349758463,
+      "relL2": 0.00005296289395586182
+    },
+    {
+      "n": 32,
+      "solveSeconds": 0.046697,
+      "solveSecondsAll": [
+        0.048385,
+        0.048747,
+        0.048423,
+        0.048979,
+        0.047527,
+        0.047883,
+        0.047415,
+        0.047527,
+        0.046697,
+        0.120614
+      ],
+      "coldSeconds": 0.049169,
+      "relMax": 0.000027604039062503542,
+      "relL2": 0.000011879524003535608
+    },
+    {
+      "n": 48,
+      "solveSeconds": 0.06771,
+      "solveSecondsAll": [
+        0.06771,
+        0.070644,
+        0.072439,
+        0.070846,
+        0.070047,
+        0.075977,
+        0.095733
+      ],
+      "coldSeconds": 0.132146,
+      "relMax": 0.0000018593106750809725,
+      "relL2": 0.0000010259869851377548
+    },
+    {
+      "n": 64,
+      "solveSeconds": 0.086147,
+      "solveSecondsAll": [
+        0.089162,
+        0.086147,
+        0.086591,
+        0.090276,
+        0.088013,
+        0.086453
+      ],
+      "coldSeconds": 0.128527,
+      "relMax": 0.0000012716066551222687,
+      "relL2": 5.067253395463966e-7
+    },
+    {
+      "n": 96,
+      "solveSeconds": 0.167938,
+      "solveSecondsAll": [
+        0.174788,
+        0.171225,
+        0.167938,
+        0.172044,
+        0.177191
+      ],
+      "coldSeconds": 0.172268,
+      "relMax": 2.952170916791534e-8,
+      "relL2": 1.963730293651892e-8
+    },
+    {
+      "n": 128,
+      "solveSeconds": 0.311368,
+      "solveSecondsAll": [
+        0.337293,
+        0.334917,
+        0.311368,
+        0.322567,
+        0.343643
+      ],
+      "coldSeconds": 0.319752,
+      "relMax": 2.5211184109902285e-9,
+      "relL2": 1.1218253148673285e-9
+    },
+    {
+      "n": 192,
+      "solveSeconds": 0.5822,
+      "solveSecondsAll": [
+        0.610737,
+        0.5822,
+        0.599996,
+        0.616743,
+        0.595486
+      ],
+      "coldSeconds": 0.629125,
+      "relMax": 2.817449414986245e-11,
+      "relL2": 2.4215553893096816e-11
+    }
+  ]
+}
